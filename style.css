@@ -1,0 +1,190 @@
+@import url('https://fonts.googleapis.com/css2?family=Kaushan+Script&display=swap');
+body{
+	background: rgba(208,228,245,0.99) url("https://www.arweb.com/blog/wp-content/uploads/2015/11/gente-oficina.jpg") no-repeat scroll 50% 50%;;
+	background-size: cover;
+	height: 122vh;
+	font-weight: bold;
+	letter-spacing: 2px;
+	justify-content: center;
+	align-items: center;	
+	min-height: 100vh;
+}
+
+input  {
+	color: rgb(247, 4, 234); font-size: 16px; line-height: 16px; padding: 6px; border-radius: 10px; font-family: Georgia, serif; font-weight: bolder; text-decoration: none; font-style: normal; font-variant: normal; text-transform: none; background-image: linear-gradient(to right, rgb(28, 110, 164) 0%, rgb(35, 136, 203) 50%, rgb(20, 78, 117) 100%); box-shadow: rgb(0, 0, 0) 5px 5px 15px 5px; border: 2px solid rgb(28, 110, 164); display: inline-block;}
+	.myButton:hover {
+	background: #1204dd; }
+	.myButton:active {
+	background: #1b03f0; }
+
+#particles{
+	width: 100%;
+	height: 100px;
+	position: fixed;
+    z-index: -1
+}
+contenedor {
+	width: 90%;
+	max-width: 1200px;
+	margin-left: auto; 
+	margin-right: auto;
+    margin-top: 15px;
+    padding: 20px 30px;
+    opacity: .85;
+	justify-content: center;
+	align-items: center;	
+	min-height: 100vh;
+}
+*{
+	margin: 0px; padding: 0px; font-family: 'Kaushan Script', cursive;
+}
+.main{
+	background-color: #1a1dc567;
+	background-size: cover;
+	height: auto;
+	width: 650px;
+	position: absolute;
+    z-index: 99;
+	transform: translate(-50%, -50%);
+	left: 50%;
+	top: 60%;
+	justify-content: center;
+	align-items: center;	
+	min-height: 100vh;
+
+}
+.left{
+	width: 200px;
+	height: 100%;
+	float: left;
+	background-color: #fbe83b59;
+}
+.right{
+	width: 450px;
+	float: left;
+	justify-content: center;
+	align-items: center;
+	min-height: 100vh;
+}
+.profile-img{
+	height: 180px;
+	width: 180px;
+	background-color: #ddd;
+	border-radius: 50%;
+	margin-bottom: 20px;
+	margin-left: 75px;
+	border: 10px solid #0f76ecda;
+	box-shadow: 6px 7px 9px 5px #ee0b038a;
+}
+.profile-img img{
+	width: 100%;
+	border-radius: 50%;
+}
+.box-1{
+	position: relative;
+}
+.heading{
+	background-color: #e7060644;
+	padding: 10px;
+	color: #fbb03b;
+	text-align: left;
+	padding-left: 20px;
+	margin-right: -15px;
+}
+.heading::after{
+	content: '';
+	position: absolute;
+	width: 21px;
+	height: 18px;
+	background-color: #030303;
+	left: 191px;
+	top: 26px;
+	transform:rotate(56deg);
+	z-index: -1;
+}
+.p1{
+	padding: 9px 10px;
+	font-size: 11px;
+}
+.icons1{
+	font-size: 16px!important;
+	padding-right: 10px!important;
+	vertical-align: sub;
+}
+.skill-container{
+	width: 90%;
+	background-color: #0f0f0f;
+	margin: 0px 10px;
+}
+.skill{
+	text-align: right;
+	padding-top: 2px;
+	padding-bottom: 2px;
+	color: white;
+}
+.RESOLUCIONDEPROBLEMAS{
+	width: 90%;
+	background-color: white;
+}
+.ATENCIONALCLIENTE{
+	width: 80%;
+	background-color: white;
+}
+.GESTIONIMPOSITIVA{
+	width: 85%;
+	background-color: white;
+}
+.COMPAÑERISMO{
+	width: 80%;
+	background-color: white;
+}
+.INGLES {
+	width: 85%;
+	background-color: white;
+}
+.PORTUGUES{
+	width: 70%;
+	background-color: white;
+}
+.icons2{
+	padding: 18px 10px;
+}
+.name-div{
+	padding: 86px 0px 60px 55px;
+	text-align: center;
+	letter-spacing: 3px;
+}
+.name-div h1{
+	margin-bottom: 10px;
+	background-color: #fb3bd16c;
+}
+.box-2{
+	padding: 0px 50px;
+	margin-top: 30px;
+}
+.p2{
+	font-size: 10px;
+	font-weight: 300;
+	letter-spacing: 1px;
+	word-spacing: 2px;
+	line-height: 18px;
+	margin-top: 5px;
+}
+h2{
+	font-size: 16px;
+	margin-bottom: 15px;
+}
+.icons3{
+	vertical-align: bottom;
+	font-size: 21px!important;
+	color: #4d4d4d;
+}
+.p3{
+	font-size: 13px;
+	word-spacing: 1px;
+	letter-spacing: 0px;
+	margin-top: 10px;
+}
+.p3 span{
+	color: #ff9b00; padding-left: 20px;
+}
